@@ -1,0 +1,165 @@
+<simulation name="токи верхних ключей" type="Transient" class="user" measurementsCounter="0">
+	<parameters>
+		<beginTime value="0"/>
+		<endTime value="1m"/>
+		<timeStep value="10n"/>
+		<checkStability value="0"/>
+		<saveLastPoint value="0"/>
+		<lastPointfileName value=""/>
+		<temperBegin value="27"/>
+		<temperEnd value=""/>
+		<temperStep value=""/>
+		<temperMode value="0"/>
+		<changeTemper value="0"/>
+		<mode value="0"/>
+		<saveCalculatedData value="0"/>
+		<mvpEnable value="0"/>
+		<ic value="0"/>
+		<nodeset value="0"/>
+		<opSourcesMode value="1"/>
+		<icMode value="0"/>
+		<stabMethod value="2"/>
+		<opFileName value=""/>
+		<icText value=""/>
+		<nodesetText value=""/>
+		<autoupdate value="0"/>
+		<mcAmount value="10"/>
+		<binsCount value="10"/>
+		<monteCarloSchemeParams value="0"/>
+		<paralMVP value="0"/>
+		<recolorMVP value="0"/>
+	</parameters>
+	<expressions>
+		<expression text="Ic(Q8) " wnd_num="0" graph_num="0" graph_mode="0" graph_color="32768" style="solid" width="2" drawRef="0" drawRefBottom="0"/>
+		<expression text="Ic(Q12) " wnd_num="0" graph_num="0" graph_mode="0" graph_color="8404992" style="solid" width="2" drawRef="0" drawRefBottom="0"/>
+	</expressions>
+	<measurements enable="0"/>
+	<ffts enable="0"/>
+	<graphGroups/>
+	<windows>
+		<window name="Группа 1"/>
+	</windows>
+	<multivariable_params/>
+	<monteCarlo_params>
+		<presettedGroup groupId="0" enable="0" dev="10" devDistribution="2" devSeed="0"/>
+		<presettedGroup groupId="1" enable="0" dev="10" devDistribution="2" devSeed="0"/>
+		<presettedGroup groupId="2" enable="0" dev="10" devDistribution="2" devSeed="0"/>
+		<presettedGroup groupId="3" enable="0" dev="10" devDistribution="2" devSeed="0"/>
+		<presettedGroup groupId="4" enable="0" dev="10" devDistribution="2" devSeed="0"/>
+	</monteCarlo_params>
+	<sens_params>
+		<presettedGroup groupId="0" enable="0"/>
+		<presettedGroup groupId="1" enable="0"/>
+		<presettedGroup groupId="2" enable="0"/>
+		<presettedGroup groupId="3" enable="0"/>
+		<presettedGroup groupId="4" enable="0"/>
+	</sens_params>
+	<options>
+		<staticMethod1 value="1" isEnabled="1"/>
+		<staticMethod2 value="2" isEnabled="1"/>
+		<staticMethod3 value="3" isEnabled="1"/>
+		<staticMethod4 value="4" isEnabled="1"/>
+		<enableAssist value="0"/>
+		<matrixSolver value="-1"/>
+		<matrixCompiler value="1"/>
+		<pivotStrategy value="0"/>
+		<PIVREL value="1e-3"/>
+		<PIVTOL value="1e-13"/>
+		<PIVRELRatioDC value="1e3"/>
+		<PIVRELRatio value="1e6"/>
+		<PIVRELRatioStab value="100"/>
+		<MaxCodes value="10"/>
+		<MaxCodesDC value="10"/>
+		<MaxBlocksNumber value="10"/>
+		<MaxThreadsNumber value="1"/>
+		<DC_KCL_check value="1"/>
+		<RELTOL value="1e-3"/>
+		<ABSTOL value="1e-12"/>
+		<VNTOL value="1e-6"/>
+		<ITL1 value="100"/>
+		<ITL2 value="50"/>
+		<ITL6 value="5"/>
+		<gminsteps value="10"/>
+		<GminStart value=".1"/>
+		<GminMax value="1e6"/>
+		<GminDC value="1e-12"/>
+		<sollim value="10.0"/>
+		<MAX_DC_STEPS value="10000"/>
+		<DCSensDev value="1e-2"/>
+		<TranMetod value="9"/>
+		<Tran_KCL_check value="1"/>
+		<GearOrder value="2"/>
+		<ltereltol value="0.001"/>
+		<lteabstol value="1e-6"/>
+		<ltevntol value="1e-6"/>
+		<CHGTOL value=".01e-12"/>
+		<TRTOL value="7.0"/>
+		<trinit value="0.1"/>
+		<trmin value="1e-15"/>
+		<ITL3 value="3"/>
+		<ITL4 value="10"/>
+		<ITL5 value="0"/>
+		<LVLTIM value="2"/>
+		<predictor value="0"/>
+		<TRAPRATIO value="10.0"/>
+		<XMUMULT value="1.0"/>
+		<bptol value="1e-10"/>
+		<PWL_ReduceBreaks value="1"/>
+		<PWL_BPRELTOL value="1.0"/>
+		<PWL_BPABSTOL value="1e-6"/>
+		<ACfreqMin value=".1"/>
+		<dotNetRin value="50"/>
+		<dotNetRout value="50"/>
+		<LocusTOL1 value="1e-6"/>
+		<LocusTOL2 value="1e-6"/>
+		<LocusITL value="200"/>
+		<CalcToEnd value="0"/>
+		<LocusPLPoints value="100"/>
+		<LocusPLToEnd value="1200"/>
+		<LocusPLMin value="1e-3"/>
+		<EigenFreqTOL1 value="1e-6"/>
+		<EigenFreqTOL2 value="1e-6"/>
+		<EigenFreqITL value="500"/>
+		<CalcToEndFreq value="0"/>
+		<EigenFreqRITOL value="1e-12"/>
+		<EigenFreqABS value="1e-6"/>
+		<F_MAX value="1e20"/>
+		<PSS_NStab value="1"/>
+		<PSS_MaxIter value="5"/>
+		<PSS_RelTol value="1e-3"/>
+		<PSS_GMRES_MaxSubspace value="6"/>
+		<PSS_GMRES_Restarts value="100"/>
+		<PSS_GMRES_Tol value="1e-8"/>
+		<PSS_ABSTOL value="1e-6"/>
+		<HB_Solver value="2"/>
+		<HB_Stepping value="1"/>
+		<HB_RES value="1e-9"/>
+		<HB_MaxIter value="1000"/>
+		<HB_DiagJacobi value="0"/>
+		<HB_Max_Thread value="1"/>
+		<HB_KScale value="0.35"/>
+		<HB_GMRES_MaxSubspace value="40"/>
+		<HB_GMRES_Restarts value="100"/>
+		<HB_GMRES_Tol value="1e-2"/>
+		<HB_PrecType value="0"/>
+		<HB_JREUSE value="0"/>
+		<HB_JREUSE_Tol value="0.05"/>
+		<TRANFORHB value="0"/>
+		<HB_OverSampling value="128"/>
+		<PrintLogDC value="0"/>
+		<PrintLogAC value="0"/>
+		<PrintLogTransient value="0"/>
+		<PrintLogPSS value="0"/>
+		<PrintLogStability value="0"/>
+		<debugMode value="0"/>
+		<debugOP value="1"/>
+		<Km value="1.0"/>
+		<connectFloatingNodes value="0"/>
+		<IterationSolver value="0"/>
+		<GMResSolver value="0"/>
+		<sim value="0"/>
+		<replaceV0withRMIN value="0"/>
+		<MaxDebugIterations value="0"/>
+	</options>
+</simulation>
+
